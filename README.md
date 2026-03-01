@@ -1,6 +1,6 @@
 # Sem2DataStructure
 
-Репозиторий с решениями учебных задач по структурам данных и алгоритмам (семестр 2, C# / .NET 10).
+Репозиторий с решениями учебных задач по структурам данных и алгоритмам (семестр 2, C# / .NET 8).
 
 [![.NET Build and Test](https://github.com/Eric-Cartmanez/Sem2DataStructure/actions/workflows/dotnet.yml/badge.svg)](https://github.com/Eric-Cartmanez/Sem2DataStructure/actions/workflows/dotnet.yml)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](https://unlicense.org)
@@ -9,7 +9,7 @@
 
 ## Быстрый старт
 
-**Требования:** [.NET 10 SDK](https://dotnet.microsoft.com/download)
+**Требования:** [.NET 8 SDK](https://dotnet.microsoft.com/download)
 
 ```bash
 # Клонировать
@@ -147,7 +147,7 @@ src/Tasks/Task08.MyTask/
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net10.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
