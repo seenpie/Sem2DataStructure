@@ -306,8 +306,8 @@ dotnet run --project src/Runner   # задача должна появиться
 ## CI / GitHub Actions
 
 Пайплайн запускается автоматически:
-- при `push` в любую ветку, кроме `main`
-- при `pull request` в `main`
+- при `push` в любую ветку, кроме `master`
+- при `pull request` в `master`
 
 Шаги: `restore` → `build --configuration Release` → `test`
 
