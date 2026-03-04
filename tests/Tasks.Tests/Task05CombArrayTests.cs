@@ -7,6 +7,7 @@ public class Task05CombArrayTests
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new CombArraySolution()];
+        yield return [new CombArraySolutionAlt()];
     }
 
     private static int[] Run(ICombArraySolution s, int[] input)
