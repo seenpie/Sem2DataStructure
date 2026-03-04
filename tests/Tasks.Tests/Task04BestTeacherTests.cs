@@ -7,6 +7,7 @@ public class Task04BestTeacherTests
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new BestTeacherSolution()];
+        yield return [new BestTeacherAlt()];
     }
 
     private static void Find(IBestTeacherSolution s, double[,] m, out int idx, out double avg)
