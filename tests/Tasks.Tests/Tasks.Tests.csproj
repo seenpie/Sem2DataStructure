@@ -24,6 +24,7 @@
     <ProjectReference Include="..\..\src\Tasks\Task04.BestTeacher\Task04.BestTeacher.csproj" />
     <ProjectReference Include="..\..\src\Tasks\Task05.CombArray\Task05.CombArray.csproj" />
     <ProjectReference Include="..\..\src\Tasks\Task06.Find2DArray\Task06.Find2DArray.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\Task07.CalculateOddIndicesAverage\Task07.CalculateOddIndicesAverage.csproj" />
   </ItemGroup>
 
 </Project>
