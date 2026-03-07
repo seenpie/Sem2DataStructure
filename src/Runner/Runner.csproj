@@ -16,6 +16,7 @@
     <ProjectReference Include="..\Tasks\Task05.CombArray\Task05.CombArray.csproj" />
     <ProjectReference Include="..\Tasks\Task06.Find2DArray\Task06.Find2DArray.csproj" />
     <ProjectReference Include="..\Tasks\Task08.ColorfulHouses\Task08.ColorfulHouses.csproj" />
+    <ProjectReference Include="..\Tasks\Task07.CalculateOddIndicesAverage\Task07.CalculateOddIndicesAverage.csproj" />
   </ItemGroup>
 
 </Project>
