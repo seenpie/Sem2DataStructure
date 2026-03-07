@@ -7,6 +7,7 @@ public class Task08ColorfulHousesTests
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new ColorfulHousesSolution()];
+        yield return [new ColorfulHousesSolutionAlt()];
     }
 
     /// <summary>
