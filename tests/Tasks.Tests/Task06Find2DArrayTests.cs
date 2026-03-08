@@ -7,6 +7,7 @@ public class Task06Find2DArrayTests
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new Find2DArraySolution()];
+        yield return [new Find2DArraySolutionAlt()];
     }
 
     public static IEnumerable<object[]> SolutionsWithValues()
