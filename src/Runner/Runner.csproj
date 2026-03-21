@@ -18,6 +18,7 @@
     <ProjectReference Include="..\Tasks\Task08.ColorfulHouses\Task08.ColorfulHouses.csproj" />
     <ProjectReference Include="..\Tasks\Task07.CalculateOddIndicesAverage\Task07.CalculateOddIndicesAverage.csproj" />
     <ProjectReference Include="..\Tasks\Task09.CrossWord\Task09.CrossWord.csproj" />
+    <ProjectReference Include="..\Tasks\Task10.SortJaggedArray\Task10.SortJaggedArray.csproj" />
   </ItemGroup>
 
 </Project>
