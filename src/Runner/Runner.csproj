@@ -21,6 +21,7 @@
     <ProjectReference Include="..\Tasks\Task10.SortJaggedArray\Task10.SortJaggedArray.csproj" />
     <ProjectReference Include="..\Tasks\Task11.SegmentsSort\Task11.SegmentsSort.csproj" />
     <ProjectReference Include="..\Tasks\Task12.Subsidies\Task12.Subsidies.csproj" />
+    <ProjectReference Include="..\Tasks\Task13.SpaceFlight\Task13.SpaceFlight.csproj" />
   </ItemGroup>
 
 </Project>
