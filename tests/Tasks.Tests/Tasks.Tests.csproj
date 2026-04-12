@@ -29,6 +29,7 @@
     <ProjectReference Include="..\..\src\Tasks\Task09.CrossWord\Task09.CrossWord.csproj" />
     <ProjectReference Include="..\..\src\Tasks\Task10.SortJaggedArray\Task10.SortJaggedArray.csproj" />
     <ProjectReference Include="..\..\src\Tasks\Task11.SegmentsSort\Task11.SegmentsSort.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\Task12.Subsidies\Task12.Subsidies.csproj" />
   </ItemGroup>
 
 </Project>

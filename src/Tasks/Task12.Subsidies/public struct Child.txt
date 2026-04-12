@@ -1,0 +1,16 @@
+ public struct Child
+ {
+     public string FullName;
+     public DateTime BirthDay;
+     public string ID;
+     public bool Gender;
+     public int Age
+     {
+         get
+         { 
+             TimeSpan ts = DateTime.Now - BirthDay;
+             DateTime res = DateTime.MinValue.Add(ts);
+             return res.Year - 1;
+         }
+     }
+ }
