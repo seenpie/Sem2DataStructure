@@ -7,6 +7,7 @@ public class Task12SubsidiesTests
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new SubsidiesSolution()];
+        yield return [new SubsidiesSolutionAlt()];
     }
 
     private static SubsidiesSolution.Child MakeChild(int age) => new()
