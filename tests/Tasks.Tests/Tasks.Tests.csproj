@@ -32,6 +32,7 @@
     <ProjectReference Include="..\..\src\Tasks\Task12.Subsidies\Task12.Subsidies.csproj" />
     <ProjectReference Include="..\..\src\Tasks\Task13.SpaceFlight\Task13.SpaceFlight.csproj" />
     <ProjectReference Include="..\..\src\Tasks\Task14.SortPancakes\Task14.SortPancakes.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\Task15.ApartmentCost\Task15.ApartmentCost.csproj" />
   </ItemGroup>
 
 </Project>
