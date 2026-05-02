@@ -7,6 +7,7 @@ public class Task14SortPancakesTests
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new SortPancakesSolution()];
+        yield return [new SortPancakesSolutionAlt()];
     }
 
     private static List<int> Run(ISortPancakesSolution s, List<int> pancakes)
