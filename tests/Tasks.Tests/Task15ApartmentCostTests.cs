@@ -8,6 +8,7 @@ public class Task15ApartmentCostTests
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new ApartmentCostSolution()];
+        yield return [new ApartmentCostSolutionAlt()];
     }
 
     private static Apt MakeApt(double[] roomAreas, double kitchen, double other, double price) => new()
