@@ -34,6 +34,7 @@
     <ProjectReference Include="..\..\src\Tasks\Task14.SortPancakes\Task14.SortPancakes.csproj" />
     <ProjectReference Include="..\..\src\Tasks\Task15.ApartmentCost\Task15.ApartmentCost.csproj" />
     <ProjectReference Include="..\..\src\Tasks\Task16.SimilarGroups\Task16.SimilarGroups.csproj" />
+    <ProjectReference Include="..\..\src\Tasks\Task17.DiagonalsArray\Task17.DiagonalsArray.csproj" />
   </ItemGroup>
 
 </Project>
