@@ -78,9 +78,25 @@ public class ApartmentCostSolution : IApartmentCostSolution
         double median = CalculateMedianPrice(apartments, rooms, totalSquare);
         Console.WriteLine($"Медиана цены: {median:F2}");
     }
+    /// <summary>
+    /// Вычисляет медиану цены квартир, удовлетворяющих фильтру.
+    ///
+    /// Алгоритм:
+    ///   1. Фильтрация — проходим по списку, отбираем цены квартир,
+    ///      у которых кол-во комнат == rooms и общая площадь > totalSquare.
+    ///   2. Сортировка — упорядочиваем отобранные цены по возрастанию.
+    ///   3. Медиана — центральное значение отсортированного массива:
+    ///      - нечётное кол-во: средний элемент          [1, 3, 5] → 3
+    ///      - чётное кол-во:   среднее двух центральных [1, 3, 5, 7] → (3+5)/2 = 4
+    ///
+    /// Сложность:
+    ///   Время:  O(n + k log k), где n — всего квартир, k — подходящих
+    ///   Память: O(k) — список отфильтрованных цен
+    /// </summary>
+    /// <returns>Медиана цены, или -1 если подходящих квартир нет</returns>
     public double CalculateMedianPrice(List<SApartment> apartments, int rooms, double totalSquare)
     {
-        // Шаг 1: отбираем цены подходящих квартир
+        // Шаг 1: фильтрация — отбираем цены подходящих квартир — O(n)
         var prices = new List<double>();
 
         for (int i = 0; i < apartments.Count; i++)
@@ -94,15 +110,17 @@ public class ApartmentCostSolution : IApartmentCostSolution
         if (prices.Count == 0)
             return -1;
 
-        // Шаг 2: сортируем цены для вычисления медианы
+        // Шаг 2: сортировка цен по возрастанию — O(k log k)
         prices.Sort();
 
-        // Шаг 3: вычисляем медиану
+        // Шаг 3: вычисление медианы — O(1)
         int mid = prices.Count / 2;
 
+        // Нечётное кол-во — берём средний элемент
         if (prices.Count % 2 == 1)
             return prices[mid];
 
+        // Чётное кол-во — среднее арифметическое двух центральных
         return (prices[mid - 1] + prices[mid]) / 2.0;
     }
 }

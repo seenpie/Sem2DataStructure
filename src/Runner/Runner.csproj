@@ -24,6 +24,7 @@
     <ProjectReference Include="..\Tasks\Task13.SpaceFlight\Task13.SpaceFlight.csproj" />
     <ProjectReference Include="..\Tasks\Task14.SortPancakes\Task14.SortPancakes.csproj" />
     <ProjectReference Include="..\Tasks\Task15.ApartmentCost\Task15.ApartmentCost.csproj" />
+    <ProjectReference Include="..\Tasks\Task16.SimilarGroups\Task16.SimilarGroups.csproj" />
   </ItemGroup>
 
 </Project>
