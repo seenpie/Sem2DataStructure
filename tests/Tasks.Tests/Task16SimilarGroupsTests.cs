@@ -7,6 +7,7 @@ public class Task16SimilarGroupsTests
     public static IEnumerable<object[]> GetSolutions()
     {
         yield return [new SimilarGroupsSolution()];
+        yield return [new SimilarGroupsSolutionAlt()];
     }
 
     // ---------- Граничные случаи ----------
@@ -312,7 +313,7 @@ public class Task16SimilarGroupsTests
     /// Сравнивает фактическое разбиение с ожидаемым, абстрагируясь от:
     ///   1) порядка групп в результирующем списке,
     ///   2) порядка людей внутри каждой группы.
-    /// 
+    ///
     /// Алгоритм:
     ///   1) Каждого человека из actual сопоставляем с индексом в input
     ///      (с пометкой "использован" — чтобы корректно работать с дублями).
